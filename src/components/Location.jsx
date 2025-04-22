@@ -49,7 +49,7 @@ const Location = ({cityName}) => {
           </div>
 
           {/* Weather Icon */}
-          <div className="row-span-2 text-[100px] items-center flex justify-center animate-bounce">
+          <div className="row-span-2 text-[100px] items-center flex justify-center animate-bounce">       
          
             {emoji}
             {data?.weather?.[0]?.main && <h2>{data.weather[0].main}</h2>}

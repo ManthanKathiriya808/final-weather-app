@@ -21,7 +21,7 @@ function App() {
   return (
     <>
     {/* main */}
-        <div>
+        <div className='flex justify-evenly items-end gap-3'>
 
           {/* left  */}
             <div>
